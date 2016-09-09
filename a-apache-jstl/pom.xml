@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.atomcat</groupId>
+    <groupId>com.github.demidenko05</groupId>
     <artifactId>a-tomcat-all</artifactId>
     <version>1.0.3-SNAPSHOT</version>
   </parent>
