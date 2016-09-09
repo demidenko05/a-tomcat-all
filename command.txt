@@ -1,0 +1,24 @@
+alt-r bash history
+
+svn co https://svn.apache.org/repos/asf/tomcat/taglibs/trunks apache-taglibs
+grep --include=*.java -r '.' -e "java\.beans"
+find . -type f -name "*.java" -exec sed -i "s/java\.beans/ajava\.beans/g" {} +
+
+find . -type f -name "pom.xml" -exec sed -i "s/org\.apache\.taglibs/org\.apache\.atomcat/g" {} +
+find . -type f -name "pom.xml" -exec sed -i "s/1\.2\.6-SNAPSHOT/1\.0\.1-SNAPSHOT/g" {} +
+
+
+grep -F --include=*.jsp -rw '.' -e 'getMsg("$'
+
+
+mvn dependency:sources
+mvn dependency:resolve -Dclassifier=javadoc
+
+//replace string
+find . -type f -name "*.java" -exec sed -i "s/packagesPersistable/classesPersistable/g" {} +
+
+//print files with text:
+grep --include=*.java -rwl '.' -e "SQLITE_NAME"
+
+//print files and lines with text:
+grep --include=*.xml -rnw '.' -e "TO-DO"

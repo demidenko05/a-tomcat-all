@@ -1,0 +1,14 @@
+grep --include=*.java -rw '.' -e "java\.beans"
+find . -type f -name "*.java" -exec sed -i "s/java\.beans/ajava\.beans/g" {} +
+grep --include=*.java -rw '.' -e "javax\.management"
+find . -type f -name "*.java" -exec sed -i "s/javax\.management/ajavax\.management/g" {} +
+grep --include=*.java -rw '.' -e "java\.lang\.management"
+find . -type f -name "*.java" -exec sed -i "s/java\.lang\.management/ajava\.lang\.management/g" {} +
+remove:
+ANT depending:
+org/apache/catalina/ant
+org/apache/jasper/compiler/AntCompiler.java
+org/apache/jasper/JspC.java
+org/apache/tomcat/buildutil
+WS:
+org/apache/naming/factory/webservices
