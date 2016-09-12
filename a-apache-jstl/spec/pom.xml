@@ -31,14 +31,18 @@
     <inceptionYear>2001</inceptionYear>
     <description>
         An implementation of the JSP Standard Tag Library (JSTL) Specification API.
+        Adapted for Android by using a-javabeans (Javabeans adapted for Android).
     </description>
+    <url>http://www.beigesoft.org</url>
 
-    <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/tomcat/taglibs/standard/trunk/spec</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tomcat/taglibs/standard/trunk/spec
-        </developerConnection>
-        <url>http://svn.apache.org/viewvc/tomcat/taglibs/standard/trunk/spec</url>
-    </scm>
+    <contributors>
+      <contributor>
+        <name>Robert Goff</name>
+      </contributor>
+      <contributor>
+        <name>Yury Demidenko</name>
+      </contributor>
+    </contributors>
 
     <developers>
         <developer><name>Pierre Delisle</name></developer>
@@ -56,10 +60,6 @@
         <developer><name>Bjorn Townsend</name></developer>
     </developers>
 
-    <contributors>
-        <contributor><name>Robert Goff</name></contributor>
-    </contributors>
-
     <dependencies>
       <dependency>
         <groupId>com.github.demidenko05</groupId>
@@ -67,19 +67,18 @@
         <version>${project.version}</version>
         <scope>provided</scope>
       </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.easymock</groupId>
-            <artifactId>easymock</artifactId>
-            <version>3.0</version>
-            <scope>test</scope>
-        </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.8.1</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.easymock</groupId>
+        <artifactId>easymock</artifactId>
+        <version>3.0</version>
+        <scope>test</scope>
+      </dependency>
     </dependencies>
 
     <build>
@@ -94,9 +93,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <reporting>
-        <plugins>
-        </plugins>
-    </reporting>
 </project>

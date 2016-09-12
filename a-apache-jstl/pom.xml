@@ -15,6 +15,13 @@
   
   <name>Apache JSTL for Android.</name>
   <description>Adapted Apache JSTL for Android.</description>
+  <url>http://www.beigesoft.org</url>
+
+  <contributors>
+    <contributor>
+      <name>Yury Demidenko</name>
+    </contributor>
+  </contributors>
   
   <licenses>
     <license>
