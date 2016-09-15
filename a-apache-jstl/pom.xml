@@ -5,13 +5,13 @@
   <parent>
     <groupId>com.github.demidenko05</groupId>
     <artifactId>a-tomcat-all</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
   </parent>
   
   <packaging>pom</packaging>
 
   <artifactId>a-apache-jstl</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   
   <name>Apache JSTL for Android.</name>
   <description>Adapted Apache JSTL for Android.</description>

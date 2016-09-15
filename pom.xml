@@ -4,7 +4,7 @@
 
   <groupId>com.github.demidenko05</groupId>
   <artifactId>a-tomcat-all</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>pom</packaging>
   
   <name>Part of Apache Tomcat to precompile JSP/JSTL for A-Jetty.</name>  
@@ -212,7 +212,7 @@
     <url>https://github.com/demidenko05/a-tomcat-all.git</url>
     <connection>scm:git:git@github.com:demidenko05/a-tomcat-all.git</connection>
     <developerConnection>scm:git:git@github.com:demidenko05/a-tomcat-all.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>a-tomcat-all-1.0.3</tag>
   </scm>
 
   <modules>

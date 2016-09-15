@@ -24,11 +24,11 @@
     <parent>
         <groupId>com.github.demidenko05</groupId>
         <artifactId>a-apache-jstl</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.3</version>
     </parent>
 
     <artifactId>taglibs-standard-impl</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <name>Apache Standard Taglib Implementation</name>
 
