@@ -49,19 +49,19 @@
     </contributors>
 
     <developers>
-        <developer><name>Pierre Delisle</name></developer>
-        <developer><name>Shawn Bayern</name></developer>
-        <developer><name>Nathan Abramson</name></developer>
-        <developer><name>Hans Bergsten</name></developer>
-        <developer><name>Scott Hasse</name></developer>
-        <developer><name>Justyna Horwat</name></developer>
-        <developer><name>Mark Kolb</name></developer>
-        <developer><name>Jan Luehe</name></developer>
-        <developer><name>Glenn Nielsen</name></developer>
-        <developer><name>Dmitri Plotnikov</name></developer>
-        <developer><name>Felipe Leme</name></developer>
-        <developer><name>Henri Yandell</name></developer>
-        <developer><name>Bjorn Townsend</name></developer>
+      <developer><name>Pierre Delisle</name></developer>
+      <developer><name>Shawn Bayern</name></developer>
+      <developer><name>Nathan Abramson</name></developer>
+      <developer><name>Hans Bergsten</name></developer>
+      <developer><name>Scott Hasse</name></developer>
+      <developer><name>Justyna Horwat</name></developer>
+      <developer><name>Mark Kolb</name></developer>
+      <developer><name>Jan Luehe</name></developer>
+      <developer><name>Glenn Nielsen</name></developer>
+      <developer><name>Dmitri Plotnikov</name></developer>
+      <developer><name>Felipe Leme</name></developer>
+      <developer><name>Henri Yandell</name></developer>
+      <developer><name>Bjorn Townsend</name></developer>
     </developers>
 
     <dependencies>

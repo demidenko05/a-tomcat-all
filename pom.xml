@@ -71,7 +71,7 @@
     <dependency>
       <groupId>com.github.demidenko05</groupId>
       <artifactId>a-javabeans</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.4</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -140,6 +140,54 @@
       <name>Yury Demidenko</name>
     </contributor>
   </contributors>
+
+  <developers>
+    <developer><name>Craig R. McClanahan</name></developer>
+    <developer><name>Vivek Chopra</name></developer>
+    <developer><name>Peter Rossbach</name></developer>
+    <developer><name>Gabriele Garuglieri</name></developer>
+    <developer><name>Mark Roth</name></developer>
+    <developer><name>Harish Prabandham</name></developer>
+    <developer><name>Kin-man Chung</name></developer>
+    <developer><name>Anil K. Vijendran</name></developer>
+    <developer><name>Jean-Francois Arcand</name></developer>
+    <developer><name>Remy Maucherat</name></developer>
+    <developer><name>Tim Fennell</name></developer>
+    <developer><name>Pierre Delisle</name></developer>
+    <developer><name>Shawn Bayern</name></developer>
+    <developer><name>Nathan Abramson</name></developer>
+    <developer><name>Hans Bergsten</name></developer>
+    <developer><name>Scott Hasse</name></developer>
+    <developer><name>Justyna Horwat</name></developer>
+    <developer><name>Mark A. Kolb</name></developer>
+    <developer><name>Jan Luehe</name></developer>
+    <developer><name>Glenn Nielsen</name></developer>
+    <developer><name>Dmitri Plotnikov</name></developer>
+    <developer><name>Felipe Leme</name></developer>
+    <developer><name>Henri Yandell</name></developer>
+    <developer><name>Bjorn Townsend</name></developer>
+    <developer><name>Andy Clark</name></developer>
+    <developer><name>Neil Graham</name></developer>
+    <developer><name>Rahul Srivastava</name></developer>
+    <developer><name>Michael Glavassevich</name></developer>
+    <developer><name>Arnaud  Le Hors</name></developer>
+    <developer><name>Eric Ye</name></developer>
+    <developer><name>Glenn Marcy</name></developer>
+    <developer><name>TAMURA Kent</name></developer>
+    <developer><name>Costin Manolache</name></developer>
+    <developer><name>Jacob Hookom</name></developer>
+    <developer><name>Mandar Raje</name></developer>
+    <developer><name>Rajiv Mordani</name></developer>
+    <developer><name>Yoav Shapira</name></developer>
+    <developer><name>M. Dahm</name></developer>
+    <developer><name>D. Brosius</name></developer>
+    <developer><name>James Todd</name></developer>
+    <developer><name>Mel Martinez</name></developer>
+    <developer><name>Filip Hanik</name></developer>
+    <developer><name>Richard A. Sitze</name></developer>
+    <developer><name>Rod Waldhoff</name></developer>
+    <developer><name>Scott Sanders</name></developer>
+  </developers>
 
   <licenses>
     <license>
