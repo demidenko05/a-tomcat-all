@@ -10,26 +10,23 @@
   <includeSiteDirectory>false</includeSiteDirectory>
   <fileSets>
     <fileSet>
+      <useDefaultExcludes>false</useDefaultExcludes>
       <includes>
-        <include>/src/**</include>
+        <include>**/src/**</include>
+        <include>**/test/**</include>
         <include>/.gitignore</include>
         <include>/README.txt</include>
-        <include>/license.txt</include>
-        <include>/pom.xml</include>
+        <include>**/LICENSE</include>
+        <include>**/NOTICE</include>
+        <include>**/CHANGES.txt</include>
+        <include>**/README_bin.txt</include>
+        <include>**/README_src.txt</include>
+        <include>**/RELEASING.txt</include>
+        <include>**/pom.xml</include>
         <include>/assembly.xml</include>
-        <include>/command.txt</include>
-        <include>/findbug-exclude.xml</include>
-        <include>/checkstyle-suppressions.xml</include>
         <include>/maven-central-deploy.sh</include>
         <include>**/spec/**</include>
         <include>**/impl/**</include>
-        <include>/LICENSE</include>
-        <include>/license.txt</include>
-        <include>/RELEASING.txt</include>
-        <include>/CHANGES.txt</include>
-        <include>/NOTICE</include>
-        <include>/README_bin.txt</include>
-        <include>/README_src.txt</include>
       </includes>
       <excludes>
         <exclude>**/src/uml/**</exclude>
@@ -37,32 +34,4 @@
       </excludes>
     </fileSet>
   </fileSets>
-  <moduleSets>
-    <moduleSet>
-      <includes>
-        <include>org.apache.atomcat:a-apache-jsp</include>
-        <include>org.apache.atomcat:a-apache-jstl</include>
-        <include>org.apache.atomcat:a-apache-jspc</include>
-      </includes>
-      <sources>
-        <fileSets>
-           <fileSet>
-            <excludes>
-              <exclude>**/src/uml/**</exclude>
-              <exclude>target/**</exclude>
-              <exclude>gwt-unitCache/**</exclude>
-              <exclude>WebContent/**</exclude>
-              <exclude>.settings/**</exclude>
-              <exclude>.classpath</exclude>
-              <exclude>.project</exclude>
-              <exclude>**/*.jasper</exclude>
-              <exclude>**/jquery/**</exclude>
-              <exclude>**/trash/**</exclude>
-              <exclude>/findbug-exclude.xml</exclude>
-            </excludes>
-          </fileSet>
-        </fileSets>
-      </sources>
-     </moduleSet>
-  </moduleSets>
 </assembly>
