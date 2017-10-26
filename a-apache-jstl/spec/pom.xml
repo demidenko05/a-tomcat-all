@@ -22,9 +22,7 @@
         <artifactId>a-apache-jstl</artifactId>
         <version>1.0.4-SNAPSHOT</version>
     </parent>
-
     <artifactId>taglibs-standard-spec</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
 
     <name>Apache Standard Taglib Specification API</name>
 

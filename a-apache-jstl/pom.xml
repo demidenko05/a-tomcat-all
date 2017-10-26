@@ -7,11 +7,8 @@
     <artifactId>a-tomcat-all</artifactId>
     <version>1.0.4-SNAPSHOT</version>
   </parent>
-  
   <packaging>pom</packaging>
-
   <artifactId>a-apache-jstl</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
   
   <name>Apache JSTL for Android.</name>
   <description>Adapted Apache JSTL for Android.</description>
