@@ -31,7 +31,7 @@
         An implementation of the JSP Standard Tag Library (JSTL) Specification API.
         Adapted for Android by using a-javabeans (Javabeans adapted for Android).
     </description>
-    <url>http://www.beigesoft.org</url>
+    <url>https://sites.google.com/site/beigesoftware</url>
 
     <contributors>
       <contributor>
@@ -79,7 +79,7 @@
       </dependency>
     </dependencies>
 
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -90,5 +90,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 </project>

@@ -12,25 +12,25 @@
     <fileSet>
       <useDefaultExcludes>false</useDefaultExcludes>
       <includes>
-        <include>**/src/**</include>
-        <include>**/test/**</include>
-        <include>/.gitignore</include>
-        <include>/README.txt</include>
-        <include>**/LICENSE</include>
-        <include>**/NOTICE</include>
-        <include>**/CHANGES.txt</include>
-        <include>**/README_bin.txt</include>
-        <include>**/README_src.txt</include>
-        <include>**/RELEASING.txt</include>
-        <include>**/pom.xml</include>
-        <include>/assembly.xml</include>
-        <include>/maven-central-deploy.sh</include>
-        <include>**/spec/**</include>
-        <include>**/impl/**</include>
+        <include>**${file.separator}src${file.separator}**</include>
+        <include>**${file.separator}test${file.separator}**</include>
+        <include>${file.separator}.gitignore</include>
+        <include>${file.separator}README.txt</include>
+        <include>**${file.separator}LICENSE</include>
+        <include>**${file.separator}NOTICE</include>
+        <include>**${file.separator}CHANGES.txt</include>
+        <include>**${file.separator}README_bin.txt</include>
+        <include>**${file.separator}README_src.txt</include>
+        <include>**${file.separator}RELEASING.txt</include>
+        <include>**${file.separator}pom.xml</include>
+        <include>${file.separator}assembly.xml</include>
+        <include>${file.separator}maven-central-deploy.sh</include>
+        <include>**${file.separator}spec${file.separator}**</include>
+        <include>**${file.separator}impl${file.separator}**</include>
       </includes>
       <excludes>
-        <exclude>**/src/uml/**</exclude>
-        <exclude>**/target/**</exclude>
+        <exclude>**${file.separator}src${file.separator}uml${file.separator}**</exclude>
+        <exclude>**${file.separator}target${file.separator}**</exclude>
       </excludes>
     </fileSet>
   </fileSets>

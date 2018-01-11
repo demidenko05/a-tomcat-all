@@ -1109,3 +1109,18 @@ based on this library.  If you modify this library, you may extend this
 exception to your version of the library, but you are not obligated to
 do so.  If you do not wish to do so, delete this exception statement
 from your version.
+
+3-d party:
+
+Eclipse JDT
+The Eclipse Public License, Version 1.0
+http://www.eclipse.org/legal/epl-v10.html
+
+Oracle JEE (Servlet API...)
+CDDL + GPLv2 with classpath exception
+https://javaee.github.io/glassfish/LICENSE
+
+https://github.com/demidenko05/a-javabeans8 - adapted OpenJDK8 javabeans for Android:
+GNU General Public License, version 2, with the Classpath Exception
+http://openjdk.java.net/legal/gplv2+ce.html
+
